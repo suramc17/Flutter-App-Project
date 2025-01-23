@@ -1,0 +1,45 @@
+name: mamsafe
+description: "A new Flutter project."
+publish_to: "none" # Prevent publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.10.0
+  google_fonts: ^6.2.1
+  url_launcher: ^6.1.10
+  youtube_player_flutter: ^9.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Sacramento
+      fonts:
+        - asset: fonts/Sacramento-Regular.ttf
+    - family: Roboto-Medium
+      fonts:
+        - asset: fonts/Roboto-Medium.ttf
+    - family: Merriweather-Bold
+      fonts:
+        - asset: fonts/Merriweather-Bold.ttf
+    - family: Billabong
+      fonts:
+        - asset: fonts/Billabong.otf
+  assets:
+    - assets/76d4c5e8dc919335f1c0104b033ee737.jpg
+    - assets/pregnant-woman.jpg
